@@ -24,7 +24,7 @@ var connection
 
 function handleDisconnect() {
 
-    var port = mysql.port?mysql.port:"3306";
+    var port = mysqlconfig.port?mysqlconfig.port:"3306";
 
     // Recreate the connection, since
     // the old one cannot be reused.
